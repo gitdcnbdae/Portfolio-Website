@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>David's Portfolio</title>
+    <!-- The font I used is called Tsukimi Rounded -->
+    <link href="stylesheet.css" rel="stylesheet">
+
+    <style>
+        h1, h2, h3, h4 {
+            text-align: center;
+        }
+
+        /* Container for the photo grid */
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid with a minimum column width of 200px */
+            gap: 30px; /* Adjust the gap between images */
+            margin: 30px; /* Add some margin around the grid */
+        }
+
+        img {
+            width: 100%; /* Make images fill the entire width of their container */
+            border-radius: 10px; /* Optional: Add rounded corners to images */
+            display: block; /* Ensure the image is treated as a block element */
+        }
+
+        /* Style for the "Back to Portfolio" and "HOME" links */
+        .navigation-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Container for the video */
+        .video-container {
+            text-align: center;
+        }
+
+        /* Styling for the video */
+        video {
+            width: 80%; /* Adjust the width of the video */
+            max-width: 100%; /* Ensure the video does not exceed its natural size */
+            display: block; /* Center the video horizontally */
+            margin: 0 auto; /* Center the video horizontally */
+        }
+
+        /* Styling for the text under the video */
+        .video-text {
+            margin-top: 10px; /* Adjust the space between video and text */
+            color: rgb(224, 183, 138); /* Adjust the text color */
+            font-weight: bold; /* Make the text bold */
+            font-size: 30px; /* Adjust the font size */
+        }
+    </style>
+</head>
+
+<body>
+    <h1><b>Arduino MIDI Drum Machine</b></h1>
+
+    <h4>
+        <a href="index.html" target="_self"><b>HOME</b> | </a> <a href="index_about.html" target="_self"><b>ABOUT</b> | </a></a> <a href="index_contact.html" target="_self"><b>CONTACT</b></a>
+    </h4>
+
+    <h2> This is a MIDI drum machine made using a single Arduino microcontroller.
+        <p> 
+        For extra effect, I added lights that change color in response to the brightness of the room.
+         </h2>
+
+    <!-- Photo Grid Container -->
+    <div class="photo-grid">
+        <img src="Assets/Images/dn44-1.jpg" alt="Photo 1">
+        <img src="Assets/Images/dn44-2.jpg" alt="Photo 2">
+        <img src="Assets/Images/dn44-3.jpg" alt="Photo 3">
+        <img src="Assets/Images/dn44-4.jpg" alt="Photo 4">
+        <img src="Assets/Images/dn44-5.jpg" alt="Photo 5">
+        <img src="Assets/Images/dn44-6.jpg" alt="Photo 6">
+    </div>
+
+     <!-- Video Section -->
+     <div class="video-container">
+        <!-- Add your local video file -->
+        <video width="640" height="360" controls>
+            <source src="Assets/Videos/dn44 prototype vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Text under the video -->
+        <h2>
+        <p class="video-text">Prototype Performance</p>
+        </h2>
+    </div>
+
+    <div class="video-container">
+        <!-- Add your local video file -->
+        <video width="640" height="360" controls>
+            <source src="Assets/Videos/dn44 finished.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <h2>
+            <p class="video-text">Finished MIDI Machine</p>
+            </h2>
+        </div>
+
+        <div class="video-container">
+            <!-- Add your local video file -->
+            <video width="640" height="360" controls>
+                <source src="Assets/Videos/dn44 final.MOV" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+    
+            <h2>
+                <p class="video-text">Final MIDI Machine</p>
+                </h2>
+            </div>
+
+    <!-- Navigation Links -->
+    <div class="navigation-links">
+        <h3><a href="index_portfolio.html" target="_self"><b>BACK TO PORTFOLIO</b></a></h3>
+        <h3><a href="index.html" target="_self"><b>HOME</b></a></h3>
+    </div>
+</body>
+</html>

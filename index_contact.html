@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title> David's Portfolio </title>
+
+<head>
+    <link href="stylesheet.css" rel="stylesheet">
+
+    <style>
+       h1, h2, h3, h4 {
+            text-align: center;
+        }
+
+        /* Container for the image grid */
+        .image-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px; /* Add some space between images */
+        }
+
+        /* Style for individual image sections */
+        .image-section {
+            width: 100px; /* Set a fixed width for each image section */
+            height: 100px; /* Set a fixed height for each image section */
+            overflow: hidden; /* Hide any content that overflows the fixed dimensions */
+            border-radius: 30px; /* Add rounded corners to images */
+        }
+
+        img {
+            width: 100%; /* Make images fill the entire width of their container */
+            height: 100%; /* Make images fill the entire height of their container */
+            object-fit: cover; /* Maintain aspect ratio while covering the container */
+        }
+    </style>
+</head>
+
+<body>
+    <h1> <b> CONTACT </b> </h1>
+
+    <h2> EMAIL <p>
+        nzekwud12@gmail.com 
+    </h2>
+
+    <!-- Image Grid Container -->
+    <div class="image-grid">
+       
+        <div class="image-section">
+            <a href="https://www.linkedin.com/in/david-nzekwu-06a469290/" target="_blank">
+            <img src="assets/Images/linkedin logo.jpg" alt="Linkedin">
+        </div>
+
+    
+        <div class="image-section">
+            <a href="https://www.instagram.com/blxckdae/" target="_blank">
+            <img src="assets/Images/ig logo.jpg" alt="Instagram">
+        </div>
+    </div>
+
+        <div>
+            <h3>
+                <a href="index_portfolio.html" target="_self">
+                <b> TO PORTFOLIO </b> </a>
+            </h3>
+        </div>
+
+        <h3>
+            <a href="index_about.html" target="_self">
+            <b> ABOUT </b> 
+            </h3>
+        </div>
+
+        <div>
+            <h3>
+                <a href="index.html" target="_self">
+                <b>HOME</b></a>
+            </h3>
+        </div>
+    </div>
+</body>
+</html>

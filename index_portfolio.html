@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>David's Portfolio</title>
+    <!-- The font I used is called Tsukimi Rounded -->
+    <link href="stylesheet.css" rel="stylesheet">
+
+    <style>
+        h1, h3, h4, h2 {
+            text-align: center;
+        }
+
+        /* Container for the image grid */
+        .image-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 20px; /* Add some space between image grid and "HOME" section */
+        }
+
+        /* Style for individual image sections */
+        .image-section {
+            text-align: center;
+            width: 30%; /* Adjust the width of each image section for three images per row */
+            height: 210px; /* Fixed height for image sections */
+            margin-bottom: 20px; /* Add some space between images */
+            position: relative; /* Add relative positioning for the text container */
+        }
+
+        img {
+            width: 100%; /* Make images fill the entire width of their container */
+            height: 100%; /* Make images fill the entire height of their container */
+            border-radius: 50px; /* Rounded corners to images */
+            display: block; /* Ensure the image is treated as a block element */
+            object-fit: cover;
+        }
+
+        /* Container for text and link over the image */
+        .text-container {
+            position: absolute;
+            top: 50%; /* Adjust vertical position */
+            left: 50%; /* Adjust horizontal position */
+            transform: translate(-50%, -50%); /* Center the text within the image */
+            color: white; /* Text color */
+            font-size: 16px; /* Adjust font size */
+            font-weight: bold; /* Adjust font weight */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Optional: Add text shadow for better visibility */
+            z-index: 1; /* Ensure text is above the image */
+        }
+
+        /* Container for background around each text */
+        .text-background {
+            background-color: rgba(0, 0, 0, 0.8); /* Background color for the text container */
+            padding: 5px; /* Adjust padding around the text */
+            border-radius: 5px; /* Optional: Add rounded corners to the background */
+        }
+    </style>
+</head>
+
+<body>
+    <h1><b>PORTFOLIO</b></h1>
+
+    <h4>
+        <a href="index.html" target="_self"><b>HOME</b> | </a> <a href="index_about.html" target="_self"><b>ABOUT</b> | </a> </a> <a href="index_contact.html" target="_self"><b>CONTACT</b></a>
+    </h4>
+
+    
+    
+
+    <!-- Image Grid Container -->
+    <div class="image-grid">
+        <!-- DN44 -->
+        <div class="image-section">
+            <a href="index_dn44.html" target="_self">
+                <img src="assets/Images/DN44.jpg" alt="DN44">
+                <div class="text-container">
+                    <div class="text-background">
+                        <p>DN44 Arduino Drum Machine</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- LED Stand -->
+        <div class="image-section">
+            <a href="index_led.html" target="_self">
+                <img src="assets/Images/LED stand.jpg" alt="LED Stand">
+                <div class="text-container">
+                    <div class="text-background">
+                        <p>LED Display Stand</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Album/Song Art -->
+        <div class="image-section">
+            <a href="index_music.html" target="_self">
+                <img src="assets/Images/up and down ep cover.PNG" alt="Music/Album Art">
+                <div class="text-container">
+                    <div class="text-background">
+                        <p>Album/Song Art</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Sound Design -->
+        <div class="image-section">
+            <a href="index.sound_design.html" target="_self">
+                <img src="assets/Images/sound design.jpg" alt="Sound Design">
+                <div class="text-container">
+                    <div class="text-background">
+                        <p>Audio Post Production</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Photography -->
+        <div class="image-section">
+            <a href="index_photography.html" target="_self">
+                <img src="assets/Images/Photography/p10.jpg" alt="Photography">
+                <div class="text-container">
+                    <div class="text-background">
+                        <p>Photography</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Music -->
+        <div class="image-section">
+            <a href="index_musiclink.html" target="_self">
+                <img src="assets/Images/fl screen.png" alt="Photography">
+                <div class="text-container">
+                    <div class="text-background">
+                        <p>Music</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- "HOME" Section -->
+    <div>
+        <h3>
+            <a href="index.html" target="_self"><b>HOME</b></a>
+
+        </h3>
+    </div>
+</body>
+</html>

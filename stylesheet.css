@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+font-family: Raleway, Arial, sans-serif;
+
+color: rgb(28, 118, 143);
+padding: 20px;
+background-color: rgb(3,37,57);
+}
+
+a {
+   /* color: rgb(28, 118, 143); /* Set the desired color for unvisited links (blue in this case) */
+    color: rgb(41, 141, 168);
+    text-decoration: none;
+}
+
+h1 { /*Page titles*/
+    font-size: 60pt;
+    font-family:Josefin Sans, sans-serif  ; 
+    color:#F1A93A; 
+   /* background-color:rgb(250, 203, 132); */
+    -webkit-text-stroke-width: 0.1px;
+    border-radius: 100px;
+}
+
+h2 { /*body text (the smaller one)*/
+    font-size: 25pt;
+    font-family:Raleway, Arial, sans-serif  ; 
+    color:rgb(224, 183, 138); 
+    -webkit-text-stroke-width: 0.1px;
+    padding: 20px;
+    margin: 16px;
+    border-radius: 10px;
+}
+
+h3 { /*links & buttons*/
+    font-size: 50pt;
+    font-family:Josefin Sans, Arial, sans-serif  ; 
+    color:brown;
+    /*background-color:rgb(250, 203, 132) ;  */
+    -webkit-text-stroke-width: 0.1px;
+    border-radius: 100px;
+}
+
+h4 { /*captions on images*/
+    font-size: 20pt;
+    font-family:Josefin Sans, Arial, sans-serif  ; 
+    color:rgb(224, 183, 138); 
+    -webkit-text-stroke-width: 0.1px;
+    padding: 20px;
+    margin: 16px;
+    border-radius: 10px;
+}
+
+h5 { /*captions on images*/
+    font-size: 15pt;
+    font-family:Raleway, Arial, sans-serif  ; 
+    color:rgb(224, 183, 138); 
+    -webkit-text-stroke-width: 0.1px;
+    padding: 20px;
+    margin: 16px;
+    border-radius: 10px;
+}
+
+/* @media screen and (max-width: 800px) {
+    h1 {
+        -webkit-text-fill-color:black; 
+        font-size: 18pt; 
+        -webkit-text-stroke-width:0px;
+    }
+
+    h2 {
+        -webkit-text-fill-color:black; 
+        font-size: 14pt;
+        -webkit-text-stroke-width:0px;
+    }
+} */
